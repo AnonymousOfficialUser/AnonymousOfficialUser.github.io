@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calc</title>
+        <link rel="stylesheet" href="calcstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+    <section class="header">
+        <div class="numberbuttons">
+            <button class="num" type="button" onclick="func1()">1</button>
+            <button class="num" type="button" onclick="func2()">2</button>
+            <button class="num" type="button" onclick="func3()">3</button>
+            <button class="num" type="button" onclick="func4()">4</button>
+            <button class="num" type="button" onclick="func5()">5</button>
+            <button class="num" type="button" onclick="func6()">6</button>
+            <button class="num" type="button" onclick="func7()">7</button>
+            <button class="num" type="button" onclick="func8()">8</button>
+            <button class="num" type="button" onclick="func9()">9</button>
+            <button class="num" type="button" onclick="func0()">0</button>
+            <button class="num" type="button" onclick="funcpl()">+</button>
+            <button class="num" type="button" onclick="funceq()">=</button>
+            
+        
+    </section>
+    </body>
+    <script>
+        let a="";
+        let c=""
+        let b=0;
+        let d=0;
+        let state=0;
+        let final=0;
+        
+        function func1(){
+            if (state == 0){
+                a = a + "1";
+                b = Number(a);
+            }
+            else{
+                c = c + "1";
+                d = Number(c);
+            }
+        }
+        function func2(){
+            if (state == 0){
+                a = a + "2";
+                b = Number(a);
+            }
+            else{
+                c = c + "2";
+                d = Number(c);
+            }
+        }
+        function func3(){
+            if (state == 0){
+                a = a + "3";
+                b = Number(a);
+            }
+            else{
+                c = c + "3";
+                d = Number(c);
+            }
+        }
+        function func4(){
+            if (state == 0){
+                a = a + "4";
+                b = Number(a);
+            }
+            else{
+                c = c + "4";
+                d = Number(c);
+            }
+        }
+        function func5(){
+            if (state == 0){
+                a = a + "5";
+                b = Number(a);
+            }
+            else{
+                c = c + "5";
+                d = Number(c);
+            }
+        }
+        function func6(){
+            if (state == 0){
+                a = a + "6";
+                b = Number(a);
+            }
+            else{
+                c = c + "6";
+                d = Number(c);
+            }
+        }
+        function func7(){
+            if (state == 0){
+                a = a + "7";
+                b = Number(a);
+            }
+            else{
+                c = c + "7";
+                d = Number(c);
+            }
+        }
+        function func8(){
+            if (state == 0){
+                a = a + "8";
+                b = Number(a);
+            }
+            else{
+                c = c + "8";
+                d = Number(c);
+            }
+        }
+        function func9(){
+            if (state == 0){
+                a = a + "9";
+                b = Number(a);
+            }
+            else{
+                c = c + "9";
+                d = Number(c);
+            }
+        }
+        function func0(){
+            if (state == 0){
+                a = a + "0";
+                b = Number(a);
+            }
+            else{
+                c = c + "0";
+                d = Number(c);
+            }
+        }
+
+        function funcpl(){
+            state=1;
+        }
+
+        function funceq(){
+            final = b + d;
+            alert(final);
+            a="";
+            b = 0;
+            c="";
+            d = 0;
+        }
+    </script>
+</html>
