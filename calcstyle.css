@@ -3,6 +3,9 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+.header{
+    text-align: center;
+}
 .num{
     display:inline-block;
     padding:0.35em 1.2em;
